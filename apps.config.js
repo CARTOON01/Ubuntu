@@ -62,7 +62,7 @@ const apps = [
         disabled: false,
         favourite: true,
         desktop_shortcut: false,
-        screen: displaySpotify, // Gospel Drils Playlist 😅
+        screen: displaySpotify, // Best Gospel Drils Playlist 😅
     },
     {
         id: "settings",
