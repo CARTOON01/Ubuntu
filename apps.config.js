@@ -1,3 +1,4 @@
+import { Analytics} from '@vercel/analytics'
 import displaySpotify from './components/apps/spotify';
 import displayVsCode from './components/apps/vscode';
 import { displayTerminal } from './components/apps/terminal';

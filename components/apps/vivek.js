@@ -233,7 +233,7 @@ function Projects() {
         {
             name: "UbuntuOS Portfolio",
             date: "October 2023",
-            link: "https://github.com/CARTOON01/Ubuntu",
+            link: "https://cartoonblog.social/",
             description: [
                 "Personal portfolio website of theme Ubuntu 20.04, made using NEXT.js & tailwind CSS",
             ],
@@ -349,7 +349,7 @@ function Projects() {
                     <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
                 </div>
             </div>
-            <iframe src="https://github.com/CARTOON01" title="CARTOON" className='my-4 w-5/6 md:w-3/4' ></iframe>
+            <iframe src="https://github.com/CARTOON01" title="CARTOON01" className='my-4 w-5/6 md:w-3/4' ></iframe>
 
             {
                 project_list.map((project, index) => {
@@ -361,7 +361,7 @@ function Projects() {
                                 <div className="flex flex-wrap justify-between items-center">
                                     <div className='flex justify-center items-center'>
                                         <div className=" text-base md:text-lg mr-2">{project.name.toLowerCase()}</div>
-                                        <iframe src={`https://ghbtns.com/github-btn.html?user=CARTOON01&repo=${projectName}&type=star&count=true`} frameBorder="0" scrolling="0" width="150" height="20" title={project.name.toLowerCase()+"-star"}></iframe>
+                                        <iframe src={`https://ghbtns.com/github-btn.html?user=CARTOON01&repo=${projectName}&type=follow&count=true`} frameBorder="0" scrolling="0" width="150" height="20" title={project.name.toLowerCase()+"-star"}></iframe>
                                     </div>
                                     <div className="text-gray-300 font-light text-sm">{project.date}</div>
                                 </div>
