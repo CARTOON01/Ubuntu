@@ -5,7 +5,7 @@ import { displaySettings } from './components/apps/settings';
 import { displayChrome } from './components/apps/chrome';
 import { displayTrash } from './components/apps/trash';
 import { displayGedit } from './components/apps/gedit';
-import { displayAboutVivek } from './components/apps/vivek';
+import { displayAboutBrian } from './components/apps/vivek';
 import { displayTerminalCalc } from './components/apps/calc';
 
 const apps = [
@@ -34,7 +34,7 @@ const apps = [
         disabled: false,
         favourite: true,
         desktop_shortcut: true,
-        screen: displayAboutVivek,
+        screen: displayAboutBrian,
     },
     {
         id: "vscode",
@@ -61,7 +61,7 @@ const apps = [
         disabled: false,
         favourite: true,
         desktop_shortcut: false,
-        screen: displaySpotify, // India Top 50 Playlist 😅
+        screen: displaySpotify, // Gospel Drils Playlist 😅
     },
     {
         id: "settings",

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactGA from 'react-ga4';
 
-export class AboutVivek extends Component {
+export class AboutBrian extends Component {
 
     constructor() {
         super();
@@ -55,27 +55,24 @@ export class AboutVivek extends Component {
         return (
             <>
                 <div id="about" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "about" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="about vivek" src="./themes/Yaru/status/about.svg" />
+                    <img className=" w-3 md:w-4" alt="about Brian" src="./themes/Yaru/status/about.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">About Me</span>
                 </div>
                 <div id="education" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "education" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="vivek' education" src="./themes/Yaru/status/education.svg" />
+                    <img className=" w-3 md:w-4" alt="Brian' education" src="./themes/Yaru/status/education.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Education</span>
                 </div>
                 <div id="skills" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "skills" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="vivek' skills" src="./themes/Yaru/status/skills.svg" />
+                    <img className=" w-3 md:w-4" alt="Brian' skills" src="./themes/Yaru/status/skills.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Skills</span>
                 </div>
                 <div id="projects" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "projects" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="vivek' projects" src="./themes/Yaru/status/projects.svg" />
+                    <img className=" w-3 md:w-4" alt="Brian' projects" src="./themes/Yaru/status/projects.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Projects</span>
                 </div>
                 <div id="resume" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "resume" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="vivek's resume" src="./themes/Yaru/status/download.svg" />
+                    <img className=" w-3 md:w-4" alt="Brian's resume" src="./themes/Yaru/status/download.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Resume</span>
-                </div>
-                <div className='my-0.5 w-28 md:w-full h-8 px-2 md:px-2.5 flex' >
-                    <iframe src="https://github.com/sponsors/vivek9patel/button" title="Sponsor vivek9patel" width={"100%"} height={"100%"} ></iframe>
                 </div>
             </>
         );
@@ -103,10 +100,10 @@ export class AboutVivek extends Component {
     }
 }
 
-export default AboutVivek;
+export default AboutBrian;
 
-export const displayAboutVivek = () => {
-    return <AboutVivek />;
+export const displayAboutBrian = () => {
+    return <AboutBrian />;
 }
 
 
@@ -114,7 +111,7 @@ function About() {
     return (
         <>
             <div className="w-20 md:w-28 my-4 bg-white rounded-full">
-                <img className="w-full" src="./images/logos/bitmoji.png" alt="Vivek Patel Logo" />
+                <img className="w-full" src="./images/logos/bitmoji.png" alt="Brian Patel Logo" />
             </div>
             <div className=" mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
                 <div>my name is <span className="font-bold">Brian Ngugi</span> ,</div>
@@ -200,31 +197,31 @@ function Skills() {
             <div className="w-full md:w-10/12 flex justify-center items-start font-bold text-center">
                 <div className="px-2 w-1/2">
                     <div className="flex flex-wrap justify-center items-start w-full mt-2">
-                        <img className="m-1" src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A" alt="vivek javascript" />
-                        <img className="m-1" src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white" alt="vivek c++" />
-                        <img className="m-1" src="http://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=ffffff" alt="vivek python" />
-                        <img className="m-1" src="https://img.shields.io/badge/Shell-0175C2?style=flat&logo=shell&logoColor=white" alt="vivek shell" />
-                        <a href="https://www.google.com/search?q=is+html+a+language%3F" target="_blank" rel="noreferrer"><img title="yes it's a language!" className="m-1" src="https://img.shields.io/badge/-HTML5-%23E44D27?style=flat&logo=html5&logoColor=ffffff" alt="vivek HTML" /></a>
-                        <img src="https://img.shields.io/badge/-Sass-%23CC6699?style=flat&logo=sass&logoColor=ffffff" alt="vivek SASS" className="m-1" />
-                        <img src="https://img.shields.io/badge/-Git-%23F05032?style=flat&logo=git&logoColor=%23ffffff" alt="vivek git" className="m-1" />
-                        <img src="https://img.shields.io/badge/-MongoDB-FFCA28?style=flat&logo=mongodb&logoColor=ffffff" alt="vivek mongodb" className="m-1" />
+                        <img className="m-1" src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A" alt="Brian javascript" />
+                        <img className="m-1" src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white" alt="Brian c++" />
+                        <img className="m-1" src="http://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=ffffff" alt="Brian python" />
+                        <img className="m-1" src="https://img.shields.io/badge/Shell-0175C2?style=flat&logo=shell&logoColor=white" alt="Brian shell" />
+                        <a href="https://www.google.com/search?q=is+html+a+language%3F" target="_blank" rel="noreferrer"><img title="yes it's a language!" className="m-1" src="https://img.shields.io/badge/-HTML5-%23E44D27?style=flat&logo=html5&logoColor=ffffff" alt="Brian HTML" /></a>
+                        <img src="https://img.shields.io/badge/-Sass-%23CC6699?style=flat&logo=sass&logoColor=ffffff" alt="Brian SASS" className="m-1" />
+                        <img src="https://img.shields.io/badge/-Git-%23F05032?style=flat&logo=git&logoColor=%23ffffff" alt="Brian git" className="m-1" />
+                        <img src="https://img.shields.io/badge/-MongoDB-FFCA28?style=flat&logo=mongodb&logoColor=ffffff" alt="Brian mongodb" className="m-1" />
                     </div>
                 </div>
                 <div className="px-2 flex flex-wrap items-start w-1/2">
                     <div className="flex flex-wrap justify-center items-start w-full mt-2">
-                        <img className=" m-1" src="https://img.shields.io/badge/Next-black?style=flat&logo=next.js&logoColor=ffffff" alt="vivek next" />
-                        <img className=" m-1" src="https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=ffffff" alt="vivek react" />
-                        <img className="m-1" src="https://img.shields.io/badge/Flask-02569B?style=flat&logo=flask&logoColor=white" alt="vivek Flask" />
-                        <img className="m-1" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white" alt="vivek tailwind css" />
-                        <img src="https://img.shields.io/badge/-Nodejs-339933?style=flat&logo=Node.js&logoColor=ffffff" alt="vivek node.js" className="m-1" />
-                        <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white" alt="vivek jquery" className="m-1" />
-                        <img className="m-1" src="https://img.shields.io/badge/Redux-593D88?style=flat&logo=redux&logoColor=white" alt="vivek redux" />
+                        <img className=" m-1" src="https://img.shields.io/badge/Next-black?style=flat&logo=next.js&logoColor=ffffff" alt="Brian next" />
+                        <img className=" m-1" src="https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=ffffff" alt="Brian react" />
+                        <img className="m-1" src="https://img.shields.io/badge/Flask-02569B?style=flat&logo=flask&logoColor=white" alt="Brian Flask" />
+                        <img className="m-1" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white" alt="Brian tailwind css" />
+                        <img src="https://img.shields.io/badge/-Nodejs-339933?style=flat&logo=Node.js&logoColor=ffffff" alt="Brian node.js" className="m-1" />
+                        <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white" alt="Brian jquery" className="m-1" />
+                        <img className="m-1" src="https://img.shields.io/badge/Redux-593D88?style=flat&logo=redux&logoColor=white" alt="Brian redux" />
                     </div>
                 </div>
             </div>
             <ul className=" tracking-tight text-sm md:text-base w-10/12 emoji-list mt-4">
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
-                    <span> And of course,</span> <img className=" inline ml-1" src="http://img.shields.io/badge/-Linux-0078D6?style=plastic&logo=linux&logoColor=ffffff" alt="vivek linux" /> <span>!</span>
+                    <span> And of course,</span> <img className=" inline ml-1" src="http://img.shields.io/badge/-Linux-0078D6?style=plastic&logo=linux&logoColor=ffffff" alt="Brian linux" /> <span>!</span>
                 </li>
             </ul>
         </>
@@ -235,8 +232,8 @@ function Projects() {
     const project_list = [
         {
             name: "UbuntuOS Portfolio",
-            date: "Apr 2021",
-            link: "https://github.com/vivek9patel/vivek9patel.github.io",
+            date: "October 2023",
+            link: "https://github.com/CARTOON01/Ubuntu",
             description: [
                 "Personal portfolio website of theme Ubuntu 20.04, made using NEXT.js & tailwind CSS",
             ],
@@ -245,7 +242,7 @@ function Projects() {
         {
             name: "Chrome Extension React Bolierplate",
             date: "Dec 2021",
-            link: "https://github.com/vivek9patel/chrome-extension-react-boilerplate",
+            link: "https://github.com/vitekpatel/chrome-extension-react-boilerplate",
             description: [
                 "A boilerplate code to build a chrome extension with react and webpack",
             ],
@@ -254,7 +251,7 @@ function Projects() {
         {
             name: "CodeConnect",
             date: "Nov 2021",
-            link: "https://github.com/vivek9patel/CodeConnect-frontend",
+            link: "https://github.com/Brian9patel/CodeConnect-frontend",
             description: [
                 "A multi-language pair-programming platform with the features of video meeting and whiteboard. Built with React.js, Tailwind CSS, Chakra UI, Express & Socket.io.",
             ],
@@ -263,7 +260,7 @@ function Projects() {
         {
             name: "Ad Free Spotify",
             date: "Jun 2021",
-            link: "https://github.com/vivek9patel/ad-free-spotify",
+            link: "https://github.com/Brian9patel/ad-free-spotify",
             description: [
                 "Chrome extension to automatically mute/unmute Spotify tab when Advertisement starts and ends!",
             ],
@@ -272,7 +269,7 @@ function Projects() {
         {
             name: "economist.com Unlocked",
             date: "Mar 2021",
-            link: "https://github.com/vivek9patel/economist.com-unlocked",
+            link: "https://github.com/Brian9patel/economist.com-unlocked",
             description: [
                 "A chrome extension to read Paid Articles for Free & with no Ads, no subscription, no memberships!",
             ],
@@ -281,7 +278,7 @@ function Projects() {
         {
             name: "Flutter banking app",
             date: "Jan 2021",
-            link: "https://github.com/vivek9patel/flutter-banking-app",
+            link: "https://github.com/Brian9patel/flutter-banking-app",
             description: [
                 "A Flutter & Firebase project for creating transactions between different Users and displaying the history of transactions done by all.",
             ],
@@ -290,7 +287,7 @@ function Projects() {
         {
             name: "CPU scheduling application",
             date: "Dec 2020",
-            link: "https://github.com/vivek9patel/CPU-Scheduling-APP-React-Native",
+            link: "https://github.com/Brian9patel/CPU-Scheduling-APP-React-Native",
             description: [
                 "React Native Application to visualize the CPU Scheduling algorithms with different Processes and Animations with gannt chart.",
             ],
@@ -299,7 +296,7 @@ function Projects() {
         {
             name: "Meditech Healthcare WebApp",
             date: "Nov 2020",
-            link: "https://github.com/vivek9patel/Meditech-Healthcare",
+            link: "https://github.com/Brian9patel/Meditech-Healthcare",
             description: [
                 "Developed Web Application to predict and diagnose diseases from x-ray images.",
             ],
@@ -308,7 +305,7 @@ function Projects() {
         {
             name: "Problem Recommendation System",
             date: "Sep 2020",
-            link: "https://github.com/vivek9patel/Improve-Codeforces",
+            link: "https://github.com/Brian9patel/Improve-Codeforces",
             description: [
                 "Django web application to suggest practice problems from the areas in which the user struggles to get pass in code-forces.",
             ],
@@ -317,7 +314,7 @@ function Projects() {
         {
             name: "Cleanliness Automation",
             date: "Dec 2019",
-            link: "https://github.com/vivek9patel/CPU-Scheduling-APP-React-Native",
+            link: "https://github.com/Brian9patel/CPU-Scheduling-APP-React-Native",
             description: [
                 "Developed Web Applications to automate Garbage collection and extraction systems for SSIP hackathon",
             ],
@@ -352,7 +349,7 @@ function Projects() {
                     <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
                 </div>
             </div>
-            <iframe src="https://github.com/sponsors/vivek9patel/card" title="Sponsor vivek9patel" className='my-4 w-5/6 md:w-3/4' ></iframe>
+            <iframe src="https://github.com/CARTOON01" title="CARTOON" className='my-4 w-5/6 md:w-3/4' ></iframe>
 
             {
                 project_list.map((project, index) => {
@@ -364,7 +361,7 @@ function Projects() {
                                 <div className="flex flex-wrap justify-between items-center">
                                     <div className='flex justify-center items-center'>
                                         <div className=" text-base md:text-lg mr-2">{project.name.toLowerCase()}</div>
-                                        <iframe src={`https://ghbtns.com/github-btn.html?user=vivek9patel&repo=${projectName}&type=star&count=true`} frameBorder="0" scrolling="0" width="150" height="20" title={project.name.toLowerCase()+"-star"}></iframe>
+                                        <iframe src={`https://ghbtns.com/github-btn.html?user=CARTOON01&repo=${projectName}&type=star&count=true`} frameBorder="0" scrolling="0" width="150" height="20" title={project.name.toLowerCase()+"-star"}></iframe>
                                     </div>
                                     <div className="text-gray-300 font-light text-sm">{project.date}</div>
                                 </div>
@@ -398,6 +395,6 @@ function Projects() {
 }
 function Resume() {
     return (
-        <iframe className="h-full w-full" src="./files/Vivek-Patel-Resume.pdf" title="vivek patel resume" frameBorder="0"></iframe>
+        <iframe className="h-full w-full" src="/public/files/Resume.pdf" title="Brian Ngugi resume" frameBorder="0"></iframe>
     )
 }
